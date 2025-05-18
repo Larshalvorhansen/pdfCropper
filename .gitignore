@@ -1,12 +1,5 @@
-# unpacked plugin folders
-plugins/**/*
+#Ignore pdf and jpg
+#They are only inputs/outputs and take up a lot of memory compared to the software
 
-# files directory where uploads go
-files
-
-# DBMigrate plugin: generated SQL
-db/sql
-
-# AssetBundler plugin: generated bundles
-javascripts/bundles
-stylesheets/bundles
+*.pdf
+*.jpg
